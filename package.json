@@ -1,0 +1,31 @@
+{
+  "name": "node-project-helper",
+  "version": "0.1.0",
+  "description": "Several useful helper utils for node.js project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "node-project-helper": "index.js",
+    "nph": "index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "svn",
+    "git"
+  ],
+  "author": "Y3G",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yusangeng/node-project-helper.git"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "commander": "^2.9.0",
+    "dateformat": "^1.0.12",
+    "node-mkdirs": "0.0.1",
+    "param-check": "^0.2.5"
+  }
+}
