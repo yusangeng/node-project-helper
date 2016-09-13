@@ -13,7 +13,7 @@ npm install node-project-helper -g
 ### Gen release info
 
 ```
-npm ri -p ${p} -s ${s} -f ${f} -o ${o}
+nph ri -p ${p} -s ${s} -f ${f} -o ${o}
 ```
 
 **parameters:**
@@ -26,19 +26,19 @@ npm ri -p ${p} -s ${s} -f ${f} -o ${o}
 ### Get VCS version
 
 ```
-npm vv -p ${p} -s ${s}
+nph vv -p ${p} -s ${s}
 ```
 
 ### Get package version
 
 ```
-npm pv -p ${p}
+nph pv -p ${p}
 ```
 
 ### Pack files
 
 ```
-npm pk -p ${p} -i ${i} -o ${o} -s ${s}
+nph pk -p ${p} -i ${i} -o ${o} -s ${s}
 ```
 
 **parameters:**
